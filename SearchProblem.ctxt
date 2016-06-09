@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=p1\ p2
+comment0.target=int\ compare(PuzzlePath,\ PuzzlePath)
+comment1.params=initState\ goalState\ queueType\ goalCheckLimit\ h
+comment1.target=SearchProblem(PuzzleState,\ PuzzleState,\ java.lang.String,\ int,\ Heuristic)
+comment1.text=\n\ Constructs\ a\ new\ SearchProblem.\n\ \n\ @param\ queueType\ For\ our\ purposes\ for\ now,\ assume\ that\ queueType\ is\ either\ "FIFO"\ (meaning\ BFS\ will\ be\ done)\n\ or\ "Ordered"\ (meaning\ A*\ will\ be\ done).\n\ \n\ @param\ goalCheckLimit\ Check\ if\ some\ state\ is\ a\ goal\ up\ to\ this\ many\ times,\ after\ which\ you\ give\ up\ the\ search.\n\ This\ is\ useful\ for\ problems\ that\ turn\ out\ to\ be\ impossible\ to\ solve.\n\ \n\ @param\ h\ The\ Heuristic,\ should\ be\ an\ instance\ of\ the\ NoHeuristic\ class\ if\ you're\ using\ FIFO\ (BFS)\ as\ the\ queueType.\n\ Otherwise\ pass\ an\ appropriate\ Heuristic\ object.\n
+comment2.params=
+comment2.target=boolean\ solve()
+comment2.text=\n\ Solve\ this\ search\ problem.\n
+numComments=3

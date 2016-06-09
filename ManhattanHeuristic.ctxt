@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=goalState
+comment0.target=ManhattanHeuristic(PuzzleState)
+comment1.params=index
+comment1.target=int\ getRow(int)
+comment2.params=index
+comment2.target=int\ getColumn(int)
+comment3.params=state
+comment3.target=int\ distance(PuzzleState)
+numComments=4

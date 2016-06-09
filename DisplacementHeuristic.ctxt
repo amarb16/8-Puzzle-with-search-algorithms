@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=goalState
+comment0.target=DisplacementHeuristic(PuzzleState)
+comment1.params=state
+comment1.target=int\ distance(PuzzleState)
+numComments=2
